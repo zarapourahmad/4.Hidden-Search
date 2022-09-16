@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff6f61;
+}
+.container {
+  position: relative;
+}
+input {
+  border: 0;
+  height: 55px;
+  padding: 13px;
+  font-size: 20px;
+  outline: none;
+}
+
+button {
+  border: 0;
+  width: 55px;
+  left: 100px;
+  height: 55px;
+  cursor: pointer;
+  position: absolute;
+  background-color: #fff;
+  transition: left ease-in 0.2s;
+  border-radius: 50%;
+}
+i {
+  display: flex;
+  font-size: 23px;
+  justify-content: center;
+}
+.hide {
+  opacity: 0;
+}
+button.moveRight {
+  left: 250px;
+}
